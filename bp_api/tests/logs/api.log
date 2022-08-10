@@ -1,0 +1,5 @@
+2022-08-06 22:04:06,815 - [DEBUG] - api_logger - (views.py).api_posts_all(23) - ��������� ��� �����)
+2022-08-06 22:05:17,811 - [DEBUG] - api_logger - (views.py).api_posts_all(23) - ��������� ��� �����)
+2022-08-06 22:07:02,444 - [DEBUG] - api_logger - (views.py).api_posts_all(23) - ��������� ��� �����)
+2022-08-06 22:11:45,736 - [DEBUG] - api_logger - (views.py).api_posts_single(35) - ��������� � ����� 2)
+2022-08-06 22:11:53,474 - [DEBUG] - api_logger - (views.py).api_posts_single(33) - ��������� � ��������������� �����)
