@@ -9,7 +9,7 @@ class TestApi:
     @pytest.fixture
     def app_instance(self):
         app = main.app
-        app.config['DATA_PATH_POST'] = os.path.join('posts', 'tests', 'posts_test_js')
+        app.config['DATA_PATH_POST'] = os.path.join('posts', 'tests', 'posts_test_js.json')
         test_client = app.test_client()
         return test_client
 
