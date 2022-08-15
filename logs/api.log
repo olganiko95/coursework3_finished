@@ -7,3 +7,7 @@
 2022-08-11 18:23:39,830 - [DEBUG] - api_logger - (views.py).api_posts_all(25) - Запрошены все посты)
 2022-08-11 18:32:11,711 - [DEBUG] - api_logger - (views.py).api_posts_single(35) - Обращение к посту 1)
 2022-08-11 18:48:40,386 - [DEBUG] - api_logger - (views.py).api_posts_single(35) - Обращение к посту 1)
+2022-08-12 20:25:10,680 - [DEBUG] - api_logger - (views.py).api_posts_all(25) - Запрошены все посты)
+2022-08-15 12:25:35,481 - [DEBUG] - api_logger - (views.py).api_posts_all(25) - Запрошены все посты)
+2022-08-15 12:25:54,556 - [DEBUG] - api_logger - (views.py).api_posts_all(25) - Запрошены все посты)
+2022-08-15 12:30:38,549 - [DEBUG] - api_logger - (views.py).api_posts_all(25) - Запрошены все посты)

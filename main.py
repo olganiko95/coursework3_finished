@@ -27,4 +27,5 @@ def page_error_500(error):
 def page_error_data_sourse_error(error):
     return f'Ошибка, что-то с данными {error}', 500
 
-app.run()
+if __name__ == '__main__':
+    app.run()

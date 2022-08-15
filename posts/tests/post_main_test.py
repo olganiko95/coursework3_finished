@@ -55,7 +55,7 @@ class TestPostsMain:
     @pytest.mark.parametrize('pk', [1,2,3])
     def test_get_by_pk_correct_id(self, post_main, pk):
         post = post_main.get_by_pk(pk)
-        assert post.pk == pk, f'Incorrest pk for requested post with pk = {pk}'
+        assert post.pk == pk, f'Incorrect pk for requested post with pk = {pk}'
 
     # Функция поиска по вхождению
     def test_search_in_content_types(self, post_main):
@@ -73,9 +73,9 @@ class TestPostsMain:
         posts = post_main.search_in_content('98657')
         assert posts == [], 'Shoulf be [] for not existing substring'
 
-    @pytest.mark.parametrize("s, expected_pks)", [
-        ('Ага', {1}),
-        ('Вышел', {2}),
+    @pytest.mark.parametrize("s, expected_pks", [
+        ('ага', {1}),
+        ('вышел', {2}),
         ('на', {1, 2, 3}),
 
     ])
