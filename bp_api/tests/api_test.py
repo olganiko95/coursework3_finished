@@ -37,7 +37,7 @@ class TestApi:
         post_keys = post.keys()
         assert post_keys == self.post_keys
 
-    @pytest.mark.parametrize("pk", [(1),(2), (3), (4)])
+    @pytest.mark.parametrize("pk", [(1), (2), (3), (4)])
     def test_single_post_has_correct_data(self, app_instance, pk):
         result = app_instance.get(f"/api/posts/{pk}", follow_redirects=True)
         post = result.get_json()

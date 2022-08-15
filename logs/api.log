@@ -11,3 +11,4 @@
 2022-08-15 12:25:35,481 - [DEBUG] - api_logger - (views.py).api_posts_all(25) - Запрошены все посты)
 2022-08-15 12:25:54,556 - [DEBUG] - api_logger - (views.py).api_posts_all(25) - Запрошены все посты)
 2022-08-15 12:30:38,549 - [DEBUG] - api_logger - (views.py).api_posts_all(25) - Запрошены все посты)
+2022-08-15 12:47:02,807 - [DEBUG] - api_logger - (views.py).api_posts_all(25) - Запрошены все посты)

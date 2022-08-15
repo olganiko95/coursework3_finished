@@ -13,7 +13,7 @@ class TestPostsMain:
 
     @pytest.fixture
     def post_main(self):
-        post_main_instance = Post_main('post_test_js.json')
+        post_main_instance = Post_main('../tests/post_test_js.json')
         return post_main_instance
 
     #Функция получения всех постов
